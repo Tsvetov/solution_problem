@@ -139,7 +139,7 @@ if __name__ == '__main__':
         '--list_input',
         nargs='+',
         type=int,
-        help='Список весов'
+        help='Список весов. Пример: $python problem_2.py -l 2 3 4 5 6'
     )
 
     args = parser.parse_args()
