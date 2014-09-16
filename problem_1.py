@@ -97,7 +97,7 @@ if __name__ == '__main__':
         '--rangle',
         nargs='+',
         type=int,
-        help='Координаты прямоугольников'
+        help='Координаты прямоугольников. Пример: $python problem_1.py -r  0 1 3 3 2 2 6 4 1 0 3 5'
     )
 
     args = parser.parse_args()
